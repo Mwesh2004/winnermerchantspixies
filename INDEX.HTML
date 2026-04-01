@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winner Merchants Pixies | Premium Makueni Oranges</title>
+    <style>
+        :root { --primary-orange: #F37021; --dark-green: #1B4332; --light-green: #D8F3DC; --white: #ffffff; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: #fcfcfc; color: #333; }
+        
+        /* Header & Nav */
+        header { background: var(--white); padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); sticky: top; }
+        .logo { font-weight: bold; font-size: 1.5rem; color: var(--dark-green); }
+        .logo span { color: var(--primary-orange); }
+
+        /* Hero Section */
+        .hero { 
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1611080626919-7cf5a9dcab5b?auto=format&fit=crop&w=1200&q=80'); 
+            height: 70vh; background-size: cover; background-position: center;
+            display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; text-align: center; padding: 0 20px;
+        }
+        .hero h1 { font-size: 3rem; margin-bottom: 10px; }
+
+        /* Content Sections */
+        .section { padding: 60px 10%; }
+        .about-box { background: var(--light-green); border-radius: 20px; padding: 40px; display: flex; flex-wrap: wrap; gap: 30px; align-items: center; }
+        .about-text { flex: 1; min-width: 300px; }
+        .about-img { flex: 1; min-width: 300px; border-radius: 15px; width: 100%; box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+
+        /* Gallery */
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px; }
+        .gallery img { width: 100%; height: 250px; object-fit: cover; border-radius: 10px; transition: transform 0.3s; }
+        .gallery img:hover { transform: scale(1.05); }
+
+        /* Contact Button */
+        .whatsapp-btn { 
+            background: #25D366; color: white; padding: 18px 35px; border-radius: 50px; 
+            text-decoration: none; font-weight: bold; display: inline-block; font-size: 1.1rem;
+            margin-top: 20px; transition: 0.3s;
+        }
+        .whatsapp-btn:hover { background: #128C7E; transform: translateY(-3px); }
+
+        footer { background: var(--dark-green); color: white; text-align: center; padding: 30px; margin-top: 50px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">WINNER <span>MERCHANTS</span></div>
+    <div>Makueni, Kenya</div>
+</header>
+
+<div class="hero">
+    <h1>Premium Pixie Oranges</h1>
+    <p>Freshly harvested from the heart of Makueni County</p>
+    <a href="https://wa.me/254722831675" class="whatsapp-btn">Order Fresh Pixies Now</a>
+</div>
+
+<div class="section">
+    <div class="about-box">
+        <div class="about-text">
+            <h2>About Winner Merchants Pixies</h2>
+            <p>Winner Merchants Pixies is a trusted supplier of fresh and high-quality pixie oranges based in Makueni County, Kenya. We are committed to supporting local farmers and providing our customers with sweet, juicy, and seedless citrus fruits that meet the highest standards.</p>
+            <p>Our mission is to bring the best of Makueni’s renowned pixie oranges directly to your table, ensuring freshness, quality, and excellent service. Whether for local markets or larger orders, Winner Merchants Pixies is your go-to source for premium citrus produce.</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1557800636-894a64c1696f?auto=format&fit=crop&w=600&q=80" alt="Fresh Pixies" class="about-img">
+    </div>
+</div>
+
+<div class="section" style="text-align: center;">
+    <h2>Our Fresh Harvest</h2>
+    <p>Taste the sweetness of seedless Makueni Pixies</p>
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1591130901020-ef93581c448c?auto=format&fit=crop&w=400&q=80" alt="Pixie Orange 1">
+        <img src="https://images.unsplash.com/photo-1611080626919-7cf5a9dcab5b?auto=format&fit=crop&w=400&q=80" alt="Pixie Orange 2">
+        <img src="https://images.unsplash.com/photo-1582979512210-99b6a53386f9?auto=format&fit=crop&w=400&q=80" alt="Pixie Orange 3">
+    </div>
+</div>
+
+<footer>
+    <p><strong>Winner Merchants Pixies</strong></p>
+    <p>Makueni County, Kenya | +254 722 831 675</p>
+    <p style="font-size: 0.8rem; opacity: 0.7;">&copy; 2026 Quality Citrus Suppliers</p>
+</footer>
+
+</body>
+</html>
